@@ -1,14 +1,14 @@
-public class NewsPaperDTO
+public class NovelDTO
 {
 	
-	public NewsPaper()
+	public Novel()
 	{
 	}
 
 	private String name;
 	private String authorName;
-	private int price;
-	
+	private int idno;
+	private double price;
 	
 	public String getName()
 	{
@@ -24,6 +24,14 @@ public class NewsPaperDTO
 	public void setAuthorName(String authorName){
 		this.authorName = authorName;
 	}
+	public int getIdno()
+	{
+		return idno;
+	}
+	public void setIdno(int idno)
+	{
+		this.idno = idno;
+	}
 	public int getPrice()
 	{
 		return price;
@@ -34,9 +42,9 @@ public class NewsPaperDTO
 	}
 	
 	
-	public void headline()
+	public void imagine()
 	{
-		System.out.println("Good Morning....");
+		System.out.println("about nature....");
 	}
 	
 }

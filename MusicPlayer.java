@@ -1,4 +1,4 @@
-public class MusicPlayer
+public class MusicPlayerDTO
 {
 	
 	public MusicPlayer()

@@ -1,15 +1,17 @@
-public class Ipl
+public class IplDTO
 {
-	
+	//rule1:use public in class and also use DTO at the end of the suffix
+	//[DTO : data transfer object]
+	//rule 2: having defalut or parameterised constructor
 	public Ipl()
 	{
 	}
-
+//rule 3:make all properties or members private
 	private String teamName;
 	private String tourney;
 	private String price;
 	
-	
+	//rule 4: use getter and setter method
 	public String getTeamName()
 	{
 		return teamName;
